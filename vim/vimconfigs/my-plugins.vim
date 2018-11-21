@@ -29,6 +29,7 @@ Plugin 'tomasiser/vim-code-dark'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'thaerkh/vim-workspace'
+Plugin 'mhinz/vim-startify'
 
 call vundle#end()  
 

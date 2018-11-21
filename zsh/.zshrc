@@ -63,6 +63,8 @@ plugins=(
 # git
 vi-mode
 web-search
+zsh-syntax-highlighting
+zsh-autosuggestions
 )
 
 # Everytime `cd` is executed, execute command inside `chpwd`
@@ -108,3 +110,8 @@ export PYENV_VIRTUALENVWRAPPER_PREFER_PYENV="true"
 export WORKON_HOME=$HOME/.virtualenvs
 pyenv virtualenvwrapper_lazy
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+export GOPATH="$HOME/go"
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
