@@ -113,5 +113,3 @@ pyenv virtualenvwrapper_lazy
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-export GOPATH="$HOME/go"
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
